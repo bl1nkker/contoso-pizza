@@ -16,5 +16,4 @@ public class PizzaContext : DbContext
     public DbSet<Topping> Toppings => Set<Topping>();
     public DbSet<Sauce> Sauces => Set<Sauce>();
 
-    public DbSet<Gay> Gays => Set<Gay>();
 }
